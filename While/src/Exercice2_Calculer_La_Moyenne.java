@@ -18,14 +18,13 @@ public class Exercice2_Calculer_La_Moyenne {
         Scanner inputNumbers = new Scanner(System.in);
 
         System.out.println("Vous voulez calculer la moyenne de combien des nombre ? ");
-        if (fois <= 0) {
-            fois = inputTimes.nextInt();
-            while (cmpt != fois) {
-                cmpt++;
-                nombre = nombre + inputNumbers.nextInt();
-            }
-            System.out.println("La moyenne des nombres entrés = " + nombre / fois);
+
+        fois = inputTimes.nextInt();
+        while (cmpt != fois) {
+            cmpt++;
+            nombre = nombre + inputNumbers.nextInt();
         }
+        System.out.println("La moyenne des nombres entrés = " + nombre / fois);
 
     }
 }
