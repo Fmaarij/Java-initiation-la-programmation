@@ -8,12 +8,13 @@ public class Exercise6_Carrez {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Entrez une valeur max");
+        int carre = 1;
+        int n = sc.nextInt();
 
-        int nombrMmax = sc.nextInt();
-        int value = 1;
-        while (value * value < nombrMmax) {
-            System.out.println(" " + value + " ");
-            value++;
+        while ((carre * carre) < n) {
+
+            System.out.println(carre);
+            carre++;
         }
     }
 }
