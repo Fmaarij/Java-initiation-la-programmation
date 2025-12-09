@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Java-initiation-la-programmation.iml" filepath="$PROJECT_DIR$/.idea/Java-initiation-la-programmation.iml" />
       <module fileurl="file://$PROJECT_DIR$/Recap_Loop/Recap_Loop.iml" filepath="$PROJECT_DIR$/Recap_Loop/Recap_Loop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sequence/Sequence.iml" filepath="$PROJECT_DIR$/Sequence/Sequence.iml" />
       <module fileurl="file://$PROJECT_DIR$/While/While.iml" filepath="$PROJECT_DIR$/While/While.iml" />
     </modules>
   </component>
